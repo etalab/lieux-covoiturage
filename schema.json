@@ -14,7 +14,7 @@
     "fields":[
         {
             "name":"id_lieu",
-            "description":"",
+            "description":"Identifiant du lieu de covoiturage, délivré par le point d'accès national",
             "example":"35238-C-001",
             "type":"string",
             "constraints":{
@@ -24,7 +24,7 @@
         },
         {
             "name":"nom_lieu",
-            "description":"",
+            "description":"Le nom du lieu de covoiturage. Recommandation : inutile de répéter la nature du type de covoiturage.",
             "example":"Les Romains",
             "type":"string",
             "constraints":{
@@ -33,8 +33,8 @@
         },
         {
             "name":"ad_lieu",
-            "description":"",
-            "example":"",
+            "description":"L'adresse du lieu compréhensible par le grand public pour assurer la coordination entre le passager et le conducteur. Exemple : \"3, rue de la gare\" ; pour les lieux proches des sorties d'autoroute ou de nationale : \"A11 sortie 7 Le Mans Nord\" ; pour les zones rurales sans adresse : \"croisement de route 1 - route 2\" ou \"le long de route X après le passage à niveau\".",
+            "example":"3, rue de la Gare",
             "type":"string",
             "constraints":{
                 "required":false
@@ -42,8 +42,8 @@
         },
         {
             "name":"com_lieu",
-            "description":"",
-            "example":"",
+            "description":"La commune / le lieu-dit du covoiturage",
+            "example":"Rouen",
             "type":"string",
             "constraints":{
                 "required":false
@@ -51,8 +51,8 @@
         },
         {
             "name":"code_insee",
-            "description":"",
-            "example":"",
+            "description":"Le code INSEE de la commune d'implantation",
+            "example":"76540",
             "type":"string",
             "constraints":{
                 "required":true,
@@ -61,8 +61,8 @@
         },
         {
             "name":"type_lieu",
-            "description":"",
-            "example":"",
+            "description":"Le type de lieu de covoiturage",
+            "example":"Parking",
             "type":"string",
             "constraints":{
                 "required":true,
@@ -78,8 +78,8 @@
         },
         {
             "name":"date_maj",
-            "description":"",
-            "example":"",
+            "description":"Date de dernière mise à jour des données. Notation ISO 8601",
+            "example":"2016-10-31",
             "type":"date",
             "format":"%Y-%m-%d",
             "constraints":{
@@ -88,8 +88,8 @@
         },
         {
             "name":"ouvert",
-            "description":"",
-            "example":"",
+            "description":"Le lieu est-il ouvert",
+            "example":"true",
             "type":"boolean",
             "constraints":{
                 "required":true
@@ -97,17 +97,18 @@
         },
         {
             "name":"source",
-            "description":"",
-            "example":"",
+            "description":"Entité ayant fourni la donnée - sous format SIREN",
+            "example":"225300011",
             "type":"string",
             "constraints":{
-                "required":true
+                "required":true,
+                "pattern": "^\\d{9}$"
             }
         },
         {
             "name":"Xlongitude",
-            "description":"",
-            "example":"",
+            "description":"La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
+            "example":"1.452323",
             "type":"number",
             "constraints":{
                 "required":true,
@@ -117,8 +118,8 @@
         },
         {
             "name":"Ylatitude",
-            "description":"",
-            "example":"",
+            "description":"La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
+            "example":"46.59698",
             "type":"number",
             "constraints":{
                 "required":true,
@@ -128,8 +129,8 @@
         },
         {
             "name":"nbre_places",
-            "description":"",
-            "example":"",
+            "description":"Le nombre de places réservées au stationnement disponibles",
+            "example":"42",
             "type":"integer",
             "constraints":{
                 "required":false,
@@ -138,6 +139,16 @@
         },
         {
             "name":"nbre_pmr",
+            "description":"Le nombre de places PMR disponibles",
+            "example":"3",
+            "type":"integer",
+            "constraints":{
+                "required":false,
+                "minimum":0
+            }
+        },
+        {
+            "name":"duree",
             "description":"",
             "example":"",
             "type":"integer",
@@ -149,7 +160,7 @@
         {
             "name":"ouverture",
             "description":"",
-            "example":"",
+            "example":true,
             "type":"string",
             "constraints":{
                 "required":false
@@ -157,8 +168,8 @@
         },
         {
             "name":"amenageur",
-            "description":"",
-            "example":"",
+            "description":"Le nom de l'aménageur, c'est-à-dire de l'entité publique ou privée propriétaire des infrastructures",
+            "example":"Département",
             "type":"string",
             "constraints":{
                 "required":false
@@ -166,8 +177,8 @@
         },
         {
             "name":"eclairage",
-            "description":"",
-            "example":"",
+            "description":"Un éclairage nocture est-il présent",
+            "example":false,
             "type":"boolean",
             "constraints":{
                 "required":false
@@ -175,7 +186,7 @@
         },
         {
             "name":"commentaires",
-            "description":"",
+            "description":"Commentaires éventuels sur les commodités mises à disposition du grand public comme : le numéro de téléphone unique qui indique les services disponibles au moment de l'arrivée sur l'aire pour réaliser le dernier kilomètre ; la présence de prises 220V ou USB ; accès à du réseau (télécom, WiFi) ; sanitaires ; intermodalité en transports",
             "example":"",
             "type":"string",
             "constraints":{
