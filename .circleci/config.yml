@@ -20,10 +20,11 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements.txt" }}
       - run:
-          name: Validate schema
+          name: Validate schema and example
           command: |
             . venv/bin/activate
             tableschema validate schema.json
+            goodtables validate --schema schema.json exemple-valide.csv
 
 workflows:
   version: 2
