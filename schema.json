@@ -50,7 +50,7 @@
             }
         },
         {
-            "name":"code_insee",
+            "name":"insee",
             "description":"Le code INSEE de la commune d'implantation",
             "example":"76540",
             "type":"string",
@@ -60,7 +60,7 @@
             }
         },
         {
-            "name":"type_lieu",
+            "name":"type",
             "description":"Le type de lieu de covoiturage",
             "example":"Parking",
             "type":"string",
@@ -106,7 +106,7 @@
             }
         },
         {
-            "name":"Xlongitude",
+            "name":"Xlong",
             "description":"La longitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
             "example":"1.452323",
             "type":"number",
@@ -117,7 +117,7 @@
             }
         },
         {
-            "name":"Ylatitude",
+            "name":"Ylat",
             "description":"La latitude en degrés décimaux (point comme séparateur décimal, avec au moins 4 chiffres après le point décimal) de la localisation de l’entrée du lieu de covoiturage exprimée dans le système de coordonnées WGS84",
             "example":"46.59698",
             "type":"number",
@@ -128,7 +128,7 @@
             }
         },
         {
-            "name":"nbre_places",
+            "name":"nbre_pl",
             "description":"Le nombre de places réservées au stationnement disponibles",
             "example":"42",
             "type":"integer",
@@ -158,7 +158,7 @@
             }
         },
         {
-            "name":"ouverture",
+            "name":"horaires",
             "description":"Ce champ permet de renseigner, si l'information est connue, les jours et horaires d'ouverture de l'équipement",
             "example":"Mo-Fr 08:00-20:00",
             "type":"string",
@@ -167,7 +167,7 @@
             }
         },
         {
-            "name":"amenageur",
+            "name":"proprio",
             "description":"Le nom de l'aménageur, c'est-à-dire de l'entité publique ou privée propriétaire des infrastructures",
             "example":"Département",
             "type":"string",
@@ -176,7 +176,7 @@
             }
         },
         {
-            "name":"eclairage",
+            "name":"lumiere",
             "description":"Un éclairage nocture est-il présent",
             "example":false,
             "type":"boolean",
@@ -185,7 +185,7 @@
             }
         },
         {
-            "name":"commentaires",
+            "name":"comm",
             "description":"Commentaires éventuels sur les commodités mises à disposition du grand public comme : le numéro de téléphone unique qui indique les services disponibles au moment de l'arrivée sur l'aire pour réaliser le dernier kilomètre ; la présence de prises 220V ou USB ; accès à du réseau (télécom, WiFi) ; sanitaires ; intermodalité en transports",
             "example":"Présence de sanitaires et accès à de l'eau courante.",
             "type":"string",
