@@ -1,0 +1,33 @@
+version: 2
+jobs:
+  validate:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/python:3.6
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "requirements.txt" }}
+      - run:
+          name: Install dependencies
+          command: |
+            python -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
+      - run:
+          name: Validate schema and example
+          command: |
+            . venv/bin/activate
+            tableschema validate schema.json
+            goodtables validate --schema schema.json exemple-valide.csv
+
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - validate

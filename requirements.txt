@@ -1,0 +1,2 @@
+tableschema==1.5.3
+goodtables==2.2.0
