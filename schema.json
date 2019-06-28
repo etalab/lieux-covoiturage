@@ -5,12 +5,12 @@
     "author":"Antoine Augusti pour Etalab",
     "contact":"contact@transport.beta.gouv.fr",
     "contributor":"transport.data.gouv.fr, OpenDataFrance, FEDUCO, BlaBlaCar",
-    "version":"0.1.0",
+    "version":"0.0.1",
     "created":"2019-06-25",
-    "updated":"2019-06-25",
+    "updated":"2019-06-28",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
-    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.0/schema.json",
-    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.0/exemple-valide.csv",
+    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.0.1/schema.json",
+    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.0.1/exemple-valide.csv",
     "fields":[
         {
             "name":"id_lieu",
