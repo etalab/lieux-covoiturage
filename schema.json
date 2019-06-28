@@ -24,7 +24,7 @@
         },
         {
             "name":"nom_lieu",
-            "description":"Le nom du lieu de covoiturage. Recommandation : inutile de répéter la nature du type de covoiturage.",
+            "description":"Le nom du lieu de covoiturage. Recommandation : inutile de répéter la nature du type de covoiturage",
             "example":"Les Romains",
             "type":"string",
             "constraints":{
@@ -33,7 +33,7 @@
         },
         {
             "name":"ad_lieu",
-            "description":"L'adresse du lieu compréhensible par le grand public pour assurer la coordination entre le passager et le conducteur. Exemple : \"3, rue de la gare\" ; pour les lieux proches des sorties d'autoroute ou de nationale : \"A11 sortie 7 Le Mans Nord\" ; pour les zones rurales sans adresse : \"croisement de route 1 - route 2\" ou \"le long de route X après le passage à niveau\".",
+            "description":"L'adresse du lieu compréhensible par le grand public pour assurer la coordination entre le passager et le conducteur. Exemple : \"3, rue de la gare\" ; pour les lieux proches des sorties d'autoroute ou de nationale : \"A11 sortie 7 Le Mans Nord\" ; pour les zones rurales sans adresse : \"croisement de route 1 - route 2\" ou \"le long de route X après le passage à niveau\"",
             "example":"3, rue de la Gare",
             "type":"string",
             "constraints":{
@@ -78,7 +78,7 @@
         },
         {
             "name":"date_maj",
-            "description":"Date de dernière mise à jour des données. Notation ISO 8601",
+            "description":"Date de dernière mise à jour des données. Notation ISO 8601, format AAAA-MM-DD",
             "example":"2016-10-31",
             "type":"date",
             "format":"%Y-%m-%d",
@@ -97,7 +97,7 @@
         },
         {
             "name":"source",
-            "description":"Entité ayant fourni la donnée - sous format SIREN",
+            "description":"SIREN de l'entité ayant fourni la donnée",
             "example":"225300011",
             "type":"string",
             "constraints":{
@@ -149,7 +149,7 @@
         },
         {
             "name":"duree",
-            "description":"Si il existe une restriction sur la durée de stationnement autorisée, la durée maximale de stationnement autorisée exprimée en minutes.",
+            "description":"Si il existe une restriction sur la durée de stationnement autorisée, la durée maximale de stationnement autorisée exprimée en minutes",
             "example":"60",
             "type":"integer",
             "constraints":{
@@ -187,7 +187,7 @@
         {
             "name":"comm",
             "description":"Commentaires éventuels sur les commodités mises à disposition du grand public comme : le numéro de téléphone unique qui indique les services disponibles au moment de l'arrivée sur l'aire pour réaliser le dernier kilomètre ; la présence de prises 220V ou USB ; accès à du réseau (télécom, WiFi) ; sanitaires ; intermodalité en transports",
-            "example":"Présence de sanitaires et accès à de l'eau courante.",
+            "example":"Présence de sanitaires et accès à de l'eau courante",
             "type":"string",
             "constraints":{
                 "required":false
