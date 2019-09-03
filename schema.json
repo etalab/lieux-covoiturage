@@ -194,6 +194,14 @@
             }
         }
     ],
+    "custom_checks":[
+        {
+            "name":"french-siren-value",
+            "params":{
+                "column":"source"
+            }
+        }
+    ],
     "missingValues":[
         ""
     ],
