@@ -22,7 +22,7 @@ Les lieux de covoiturage sont des données précieuses, notamment pour les appli
 ## Transmission des données
 Dans le but de constituer un répertoire national des lieux de covoiturage, ouvert et accessible à tous, les collectivités peuvent transmettre systématiquement, sous forme de tableau mis à jour, les données relatives aux lieux qu'elles considèrent pertinents pour les covoitureurs.
 
-Elles peuvent ajouter le mot-clef "covoiturage" lors de la publication du jeu de données sur leur espace de publication ou directement sur data.gouv.fr
+Elles peuvent ajouter le mot-clef `covoiturage` lors de la publication du jeu de données sur leur espace de publication ou directement sur data.gouv.fr
 
 ### Format des fichiers
 Le fichier doit être encodé en UTF-8 et utiliser le point-virgule comme séparateur de colonnes. L'en-tête de colonne sur la première ligne est obligatoire. Tous les champs sont obligatoires ; si la donnée n'est pas disponible, la colonne doit être présente et vide.
