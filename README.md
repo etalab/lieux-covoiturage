@@ -42,7 +42,7 @@ Les mises à jour sont effectuées à partir du fichier communiqué précédemme
 ## Consolidation
 Le Point d'accès national aux données de transport ([transport.data.gouv.fr](https://transport.data.gouv.fr)) réalise une consolidation régulière des fichiers déposés sur [data.gouv.fr](https://data.gouv.fr) avec le mot-clé `covoiturage` respectant le format de référence décrit ici.
 
-## outils
+## Outils
 
 * [Validateur de fichiers CSV](https://forms.validata.etalab.studio/?schema=etalab%2Fschema-lieux-covoiturage)
 * [formulaire de création de données valides](https://forms.validata.etalab.studio/?schema=etalab%2Fschema-lieux-covoiturage)
