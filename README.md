@@ -51,5 +51,5 @@ Le Point d'accès national aux données de transport ([transport.data.gouv.fr](h
 
 ## En savoir plus
 
-* Le Ministère de la Transition écologique et solidaire rappelle sur cette [page](https://www.ecologique-solidaire.gouv.fr/covoiturage-en-france) le cadre de cette pratique de mobilité.
+* Le Ministère de la Transition écologique et solidaire rappelle sur [cette page](https://www.ecologique-solidaire.gouv.fr/covoiturage-en-france) le cadre de cette pratique de mobilité.
 * Page du [wiki de la Fabrique des mobilités](https://wiki.lafabriquedesmobilites.fr/wiki/Base_de_donn%C3%A9e_commune_des_lieux_de_covoiturage) dédiée au sujet du covoiturage
