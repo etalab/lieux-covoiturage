@@ -7,7 +7,7 @@
         "transport",
         "mobilité"
     ],
-    "contryCode":"FR",
+    "countryCode":"FR",
     "licenses": [
         {
           "title": "Licence Ouverte",
