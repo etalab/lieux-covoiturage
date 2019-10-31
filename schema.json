@@ -12,21 +12,21 @@
         {
           "title": "Licence Ouverte",
           "name": "etalab-2.0",
-          "path": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"  
+          "path": "https://www.etalab.gouv.fr/licence-ouverte-open-licence"
         }
       ],
       "resources": [
         {
           "title": "Ressource valide",
           "name": "exemple-valide",
-          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.1/exemple-valide.csv"
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-valide.csv"
         },
         {
           "title": "Ressource invalide",
           "name": "exemple-invalide",
-          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.1/exemple-invalide.csv"      
-        }    
-      ],  
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-invalide.csv"
+        }
+      ],
     "author":"Antoine Augusti pour Etalab",
     "contact":"contact@transport.beta.gouv.fr",
     "contributors": [
@@ -67,12 +67,12 @@
             "role": "contributor"
         }
     ],
-    "version":"0.1.1",
+    "version":"0.1.2",
     "created":"2019-06-25",
-    "updated":"2019-09-03",
+    "updated":"2019-10-31",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
-    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.1/schema.json",
-    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.1/exemple-valide.csv",
+    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/schema.json",
+    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-valide.csv",
     "fields":[
         {
             "name":"id_lieu",
