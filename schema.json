@@ -31,6 +31,12 @@
     "contact":"contact@transport.beta.gouv.fr",
     "contributors": [
         {
+            "title": "Miryad Ali et Francis Chabouis",
+            "email": "contact@transport.beta.gouv.fr",
+            "organisation": "transport.data.gouv.fr",
+            "role": "contributor"
+        },
+        {
             "title": "Ishan Bhojwani",
             "email": "ishan@beta.gouv.fr",
             "organisation": "transport.data.gouv.fr",
@@ -67,17 +73,17 @@
             "role": "contributor"
         }
     ],
-    "version":"0.1.2",
+    "version":"0.2.0",
     "created":"2019-06-25",
-    "updated":"2019-10-31",
+    "updated":"2020-11-23",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
-    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/schema.json",
-    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.1.2/exemple-valide.csv",
+    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.0/schema.json",
+    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.0/exemple-valide.csv",
     "fields":[
         {
             "name":"id_lieu",
-            "description":"Identifiant du lieu de covoiturage, délivré par le point d'accès national",
-            "example":"35238-C-001",
+            "description":"Identifiant du lieu de covoiturage, délivré par le point d'accès national selon la règle INSEE-P-XXX où INSEE est le code INSEE de la commune et XXX est le numéro d’ordre d'arrivée dans la base sur 3 chiffres, commençant par 001",
+            "example":"35238-C-001 pour la première aire référencée dans la commune de code INSEE 35238",
             "type":"string",
             "constraints":{
                 "required":true,
@@ -134,7 +140,8 @@
                     "Parking",
                     "Supermarché",
                     "Parking relais",
-                    "Délaissé routier"
+                    "Délaissé routier",
+                    "Auto-stop"
                 ]
             }
         },
@@ -163,7 +170,7 @@
             "example":"225300011",
             "type":"string",
             "constraints":{
-                "required":true,
+                "required":false,
                 "pattern": "^\\d{9}$"
             }
         },
@@ -211,7 +218,7 @@
         },
         {
             "name":"duree",
-            "description":"Si il existe une restriction sur la durée de stationnement autorisée, la durée maximale de stationnement autorisée exprimée en minutes",
+            "description":"S'il existe une restriction sur la durée de stationnement autorisée, la durée maximale de stationnement autorisée exprimée en minutes",
             "example":"60",
             "type":"integer",
             "constraints":{
@@ -239,7 +246,7 @@
         },
         {
             "name":"lumiere",
-            "description":"Un éclairage nocture est-il présent",
+            "description":"Un éclairage nocturne est-il présent",
             "example":false,
             "type":"boolean",
             "constraints":{
