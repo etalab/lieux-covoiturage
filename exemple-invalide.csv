@@ -1,3 +1,3 @@
-id_lieu,nom_lieu,ad_lieu,com_lieu,insee,type,date_maj,ouvert,source,Xlong,Ylat,nbre_pl,nbre_pmr,duree,horaires,proprio,lumiere,comm
-76217-C-001,Gare SNCF de Dieppe,2 Boulevard Georges Clemenceau,Dieppe,76217,Parking,2019-06-25,true,217602176,1.081183,49.921823,20,2,,true,Ville de Dieppe,true,Correspondance avec la ligne TER Dieppe-Rouen
-76217-C-002,Gare Routière de Dieppe,2 Avenue Victor Louis,Dieppe,76000,Parking,24-06-2019,true,576578587,49.921921,1.065656,2,3,,false,Ville de Dieppe,true,Proximité de la gare SNCF
+id_lieu,id_local,nom_lieu,ad_lieu,com_lieu,insee,type,date_maj,ouvert,source,Xlong,Ylat,nbre_pl,nbre_pmr,duree,horaires,proprio,lumiere,comm
+76217-C-001,23X01,Gare SNCF de Dieppe,2 Boulevard Georges Clemenceau,Dieppe,76217,Parking,2019-06-25,true,217602176,1.081183,49.921823,20,2,,true,Ville de Dieppe,true,Correspondance avec la ligne TER Dieppe-Rouen
+76217-C-002,23X02,Gare Routière de Dieppe,2 Avenue Victor Louis,Dieppe,76000,Parking,24-06-2019,true,576578587,49.921921,1.065656,2,3,,false,Ville de Dieppe,true,Proximité de la gare SNCF

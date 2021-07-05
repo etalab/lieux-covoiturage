@@ -91,6 +91,15 @@
             }
         },
         {
+            "name":"id_local",
+            "description":"Identifiant du lieu de covoiturage fixé par le producteur de la donnée pour son propre usage",
+            "example":"23X01",
+            "type":"string",
+            "constraints":{
+                "required":false
+            }
+        },
+        {
             "name":"nom_lieu",
             "description":"Le nom du lieu de covoiturage. Recommandation : inutile de répéter la nature du type de covoiturage",
             "example":"Les Romains",
