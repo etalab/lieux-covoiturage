@@ -2,6 +2,12 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
+## Version 0.2.2 - 2021-12-21
+- Correction du fichier d'exemple
+
+## Version 0.2.1 - 2021-07-05
+- Ajout d'un champ `id_local` pour que les producteurs de données puissent retrouver plus facilement leurs données après publication
+
 ## Version 0.2.0 - 2020-11-23
 - colonne `id_lieu`, le mode de numérotation des aires est explicité
 - colonne `type`, ajout du type d'aire "Auto-stop"
