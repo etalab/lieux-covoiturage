@@ -73,12 +73,12 @@
             "role": "contributor"
         }
     ],
-    "version":"0.2.2",
+    "version":"0.2.3",
     "created":"2019-06-25",
-    "updated":"2021-12-21",
+    "updated":"2022-02-09",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
-    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/schema.json",
-    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv",
+    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.3/schema.json",
+    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.3/exemple-valide.csv",
     "fields":[
         {
             "name":"id_lieu",
