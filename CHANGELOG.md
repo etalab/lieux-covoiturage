@@ -2,6 +2,9 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
+## Version 0.2.3 - 2022-02-09
+- Complétion de la description du champ "ouvert" du schéma
+
 ## Version 0.2.2 - 2021-12-21
 - Correction du fichier d'exemple
 
