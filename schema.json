@@ -19,12 +19,12 @@
         {
           "title": "Ressource valide",
           "name": "exemple-valide",
-          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv"
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-valide.csv"
         },
         {
           "title": "Ressource invalide",
           "name": "exemple-invalide",
-          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-invalide.csv"
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-invalide.csv"
         }
       ],
     "author":"Antoine Augusti pour Etalab",
@@ -73,17 +73,17 @@
             "role": "contributor"
         }
     ],
-    "version":"0.2.3",
+    "version":"0.3.0",
     "created":"2019-06-25",
-    "updated":"2022-02-09",
+    "updated":"2022-02-24",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
-    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.3/schema.json",
-    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.3/exemple-valide.csv",
+    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/schema.json",
+    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-valide.csv",
     "fields":[
         {
             "name":"id_lieu",
-            "description":"Identifiant du lieu de covoiturage, délivré par le point d'accès national selon la règle INSEE-C-XXX où INSEE est le code INSEE de la commune et XXX est le numéro d’ordre d'arrivée dans la base sur 3 chiffres, commençant par 001",
-            "example":"35238-C-001 pour la première aire référencée dans la commune de code INSEE 35238",
+            "description":"Identifiant du lieu de covoiturage, délivré par le point d'accès national selon la règle INSEE-C-XXX où INSEE est le code INSEE de la commune et XXX est le numéro d’ordre d'arrivée dans la base sur 3 chiffres, commençant par 001. Pour la première aire référencée dans la commune de code INSEE 35238, l'identifiant sera ainsi 35238-C-001.",
+            "example":"35238-C-001",
             "type":"string",
             "constraints":{
                 "required":true,
@@ -277,6 +277,12 @@
             "name":"french-siren-value",
             "params":{
                 "column":"source"
+            }
+        },
+        {
+            "name":"opening-hours-value",
+            "params":{
+                "column":"horaires"
             }
         }
     ],
