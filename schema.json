@@ -166,7 +166,7 @@
         },
         {
             "name":"ouvert",
-            "description":"Le lieu est il actuellement accessible (actif ou inactif)",
+            "description":"Le lieu est-il actuellement accessible (actif ou inactif)",
             "example":"true",
             "type":"boolean",
             "constraints":{
