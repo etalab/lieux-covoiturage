@@ -75,7 +75,7 @@
     ],
     "version":"0.3.0",
     "created":"2019-06-25",
-    "updated":"2022-02-24",
+    "updated":"2022-03-16",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
     "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/schema.json",
     "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-valide.csv",
@@ -169,6 +169,14 @@
             "description":"Le lieu est-il actuellement accessible (actif ou inactif)",
             "example":"true",
             "type":"boolean",
+            "trueValues":[
+            "true",
+            "vrai"
+      ],
+           "falseValues":[
+           "false",
+           "faux"
+      ],
             "constraints":{
                 "required":true
             }
@@ -258,6 +266,16 @@
             "description":"Un éclairage nocturne est-il présent",
             "example":false,
             "type":"boolean",
+             "example":"true",
+            "type":"boolean",
+            "trueValues":[
+            "true",
+            "vrai"
+      ],
+           "falseValues":[
+           "false",
+           "faux"
+      ],
             "constraints":{
                 "required":false
             }
