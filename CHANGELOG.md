@@ -2,10 +2,11 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
-## Version 0.3.0 - 2022-02-24
+## Version 0.3.0 - 2022-03-16
 - Suppression du fichier Excel d'exemple
 - Correction de la valeur d'exemple pour `id_lieu`
 - Vérification de la validité de la colonne `horaires`
+- Autorisation des valeurs "vrai/faux" aux boleens : champ `ouvert` et `lumiere`
 
 ## Version 0.2.3 - 2022-02-09
 - Complétion de la description du champ "ouvert" du schéma
