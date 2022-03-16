@@ -6,7 +6,7 @@ Ce fichier répertorie les changements entre différentes versions d'un schéma.
 - Suppression du fichier Excel d'exemple
 - Correction de la valeur d'exemple pour `id_lieu`
 - Vérification de la validité de la colonne `horaires`
-- Autorisation des valeurs "vrai/faux" aux boleens : champ `ouvert` et `lumiere`
+- Autorisation des valeurs `vrai` et `faux` pour les champs booléens (`ouvert` et `lumiere`)
 
 ## Version 0.2.3 - 2022-02-09
 - Complétion de la description du champ "ouvert" du schéma
@@ -21,7 +21,6 @@ Ce fichier répertorie les changements entre différentes versions d'un schéma.
 - colonne `id_lieu`, le mode de numérotation des aires est explicité
 - colonne `type`, ajout du type d'aire "Auto-stop"
 - colonne `source` devient facultative
-
 
 ## Version 0.1.2 - 2019-10-30
 - Enrichissements de la documentation : contexte, cadrage juridique, outils associés
