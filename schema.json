@@ -269,13 +269,13 @@
              "example":"true",
             "type":"boolean",
             "trueValues":[
-            "true",
-            "vrai"
-      ],
-           "falseValues":[
-           "false",
-           "faux"
-      ],
+                "true",
+                "vrai"
+            ],
+            "falseValues":[
+               "false",
+               "faux"
+            ],
             "constraints":{
                 "required":false
             }
