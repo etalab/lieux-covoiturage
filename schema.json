@@ -170,13 +170,13 @@
             "example":"true",
             "type":"boolean",
             "trueValues":[
-            "true",
-            "vrai"
-      ],
-           "falseValues":[
-           "false",
-           "faux"
-      ],
+                "true",
+                "vrai"
+            ],
+            "falseValues":[
+               "false",
+               "faux"
+            ],
             "constraints":{
                 "required":true
             }
@@ -266,13 +266,13 @@
             "description":"Un éclairage nocturne est-il présent",
             "example":false,
             "type":"boolean",
-             "example":"true",
-            "type":"boolean",
             "trueValues":[
+                true,
                 "true",
                 "vrai"
             ],
             "falseValues":[
+               false,
                "false",
                "faux"
             ],
