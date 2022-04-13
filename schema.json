@@ -73,12 +73,12 @@
             "role": "contributor"
         }
     ],
-    "version":"0.2.3",
+    "version":"0.2.4",
     "created":"2019-06-25",
-    "updated":"2022-02-09",
+    "updated":"2022-04-13",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
-    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.3/schema.json",
-    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.3/exemple-valide.csv",
+    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.4/schema.json",
+    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.4/exemple-valide.csv",
     "fields":[
         {
             "name":"id_lieu",
@@ -277,6 +277,12 @@
             "name":"french-siren-value",
             "params":{
                 "column":"source"
+            }
+        },
+        {
+            "name":"opening-hours-value",
+            "params":{
+                "column":"horaires"
             }
         }
     ],
