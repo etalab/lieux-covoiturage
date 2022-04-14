@@ -3,7 +3,7 @@
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
 ## Version 0.2.4 - 2022-04-13
-- Ajout d'un custom check pour les horaires d'ouverture. Champ "horaires" du schéma
+- Ajout d'une vérification de la syntaxe des horaires d'ouverture pour le champ `horaires` du schéma
 
 ## Version 0.2.3 - 2022-02-09
 - Complétion de la description du champ "ouvert" du schéma
