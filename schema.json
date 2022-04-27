@@ -237,7 +237,7 @@
         },
         {
             "name":"horaires",
-            "description":"Ce champ permet de renseigner, si l'information est connue, les jours et horaires d'ouverture de l'équipement. Le format attendu doit respecté celui proposé par OSM pour le champ [opening_hour](https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours)",
+            "description":"Ce champ permet de renseigner, si l'information est connue, les jours et horaires d'ouverture de l'équipement. Le format attendu doit respecté celui proposé par OSM pour le champ [opening_hours](https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours)",
             "example":"Mo-Fr 08:00-20:00",
             "type":"string",
             "constraints":{
