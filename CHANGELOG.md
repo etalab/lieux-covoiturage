@@ -2,7 +2,7 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
-## Version 0.2.5 - 2022-04-27
+## Version 0.2.5 - 2022-08-26
 - Ajout d'une description sur la syntaxe attendue du champ `horaires` (au format "opening_hours" d'OSM)
 
 ## Version 0.2.4 - 2022-04-13
