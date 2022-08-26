@@ -75,7 +75,7 @@
     ],
     "version":"0.2.5",
     "created":"2019-06-25",
-    "updated":"2022-04-27",
+    "updated":"2022-08-26",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
     "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.5/schema.json",
     "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.5/exemple-valide.csv",
