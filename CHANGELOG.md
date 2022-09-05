@@ -2,6 +2,11 @@
 
 Ce fichier répertorie les changements entre différentes versions d'un schéma.
 
+## Version 0.2.6 - 2022-08-26
+- Correction de la valeur d'exemple du champ `id_lieu`
+- Mise à jour d'outils
+- Dans les métadonnées du schéma, renomme le champ `updated` en `lastModified`
+
 ## Version 0.2.5 - 2022-08-26
 - Ajout d'une description sur la syntaxe attendue du champ `horaires` (au format "opening_hours" d'OSM)
 
