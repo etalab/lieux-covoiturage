@@ -82,7 +82,7 @@
     "fields":[
         {
             "name":"id_lieu",
-            "description":"Identifiant du lieu de covoiturage, délivré par le point d'accès national selon la règle INSEE-C-XXX où INSEE est le code INSEE de la commune et XXX est le numéro d’ordre d'arrivée dans la base sur 3 chiffres, commençant par 001. L'identifiant 35238-C-001 désigne ainsi la première aire référencée dans la commune de code INSEE 35238.",
+            "description":"Identifiant du lieu de covoiturage, délivré par le Point d'Accès National selon la règle INSEE-C-XXX où INSEE est le code INSEE de la commune et XXX est le numéro d’ordre d'arrivée dans la base sur 3 chiffres, commençant par 001. L'identifiant 35238-C-001 désigne ainsi la première aire référencée dans la commune de code INSEE 35238.",
             "example":"35238-C-001",
             "type":"string",
             "constraints":{
