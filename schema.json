@@ -77,8 +77,8 @@
     "created":"2019-06-25",
     "lastModified":"2023-01-24",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
-    "uri":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.6/schema.json",
-    "example":"https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.6/exemple-valide.csv",
+    "uri":"https://github.com/etalab/lieux-covoiturage/blob/master/schema.json",
+    "example":"https://github.com/etalab/lieux-covoiturage/blob/master/exemple-valide.csv",
     "fields":[
         {
             "name":"id_lieu",
