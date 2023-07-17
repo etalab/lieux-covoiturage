@@ -24,7 +24,7 @@ Dans le but de constituer un répertoire national des lieux de covoiturage, ouve
 
 Les différents moyens permettant de contribuer sont détaillés dans la documentation "[Contribution à la Base nationale des Lieux de Covoiturage (BNLC)](https://doc.transport.data.gouv.fr/producteurs/lieux-de-covoiturage/contribuer-a-la-base-nationale-des-lieux-de-covoiturage)".
 
-En cas de contribution directement sur data.gopuv.fr, il faut sélectionner le schéma `Lieu de covoiturage` lors de la publication du jeu de données.
+En cas de contribution directement sur data.gouv.fr, il faut sélectionner le schéma `Lieu de covoiturage` lors de la publication du jeu de données. [Plus de détails sur l'ajout d'un schéma](https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees)
 
 ### Format des fichiers
 Le fichier doit être un fichier CSV, encodé en UTF-8 et utilisant le point-virgule comme séparateur de colonnes. L'en-tête de colonne sur la première ligne est obligatoire. Tous les champs du schéma sont obligatoires ; si la donnée n'est pas disponible, la colonne doit malgré tout être présente mais vide.
