@@ -24,10 +24,10 @@ Dans le but de constituer un répertoire national des lieux de covoiturage, ouve
 
 Les différents moyens permettant de contribuer sont détaillés dans la documentation "[Contribution à la Base nationale des Lieux de Covoiturage (BNLC)](https://doc.transport.data.gouv.fr/producteurs/lieux-de-covoiturage/contribuer-a-la-base-nationale-des-lieux-de-covoiturage)".
 
-En cas de contribution directement sur data.gouv.fr, il faut sélectionner le schéma `Lieu de covoiturage` lors de la publication du jeu de données. [Plus de détails sur l'ajout d'un schéma](https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees)
+En cas de contribution directement sur data.gouv.fr, il faut sélectionner le schéma `Lieu de covoiturage` lors de la publication du jeu de données, afin que celui-ci soit ajouté automatiquement à la BNLC. [Plus de détails sur l'ajout d'un schéma](https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees)
 
 ### Format des fichiers
-Le fichier doit être un fichier CSV, encodé en UTF-8 et utilisant le point-virgule comme séparateur de colonnes. L'en-tête de colonne sur la première ligne est obligatoire. Tous les champs du schéma sont obligatoires ; si la donnée n'est pas disponible, la colonne doit malgré tout être présente mais vide.
+Le fichier doit être un fichier CSV, encodé en UTF-8 et utilisant la virgule comme séparateur de colonnes. L'en-tête de colonne sur la première ligne est obligatoire. Tous les champs du schéma sont obligatoires ; si la donnée n'est pas disponible, la colonne doit malgré tout être présente mais vide.
 
 Lorsque vous contribuez via data.gouv.fr, nous préconisons ce format de nom du fichier : `AAAAMMJJ_idproducteur_lieuxcovoit.csv` où `AAAAMMJJ`est la date de mise à jour des données et `idproducteur` est le SIREN de la collectivité productrice des données. Par exemple pour le département de l'Ain, avec des données mises à jour le 18 juin 2023 :  `20230618_220100010_lieuxcovoit.csv`.
 
