@@ -6,15 +6,15 @@ Ce fichier répertorie les changements entre différentes versions d'un schéma.
 - La colonne `id_lieu` est supprimée
 - La colonne `id_local` devient obligatoire
 - Mise à jour des exemples CSV correct/incorrect
-- Mise à jour du readme
+- Mise à jour du README
 
 ## Version 0.2.8 - 2023-07-17
 - Correction de l'exemple CSV correct
 - Mise à jour des liens des exemples dans le `schema.json`
-- Mise à jour du readme
+- Mise à jour du README
 
 ## Version 0.2.7 - 2023-04-13
-- Mise à jour du readme : ajout d'une information concernant la sécurité des aires
+- Mise à jour du README : ajout d'une information concernant la sécurité des aires
 
 ## Version 0.2.6 - 2022-08-26
 - Correction de la valeur d'exemple du champ `id_lieu`
