@@ -159,10 +159,10 @@
             "description":"Le lieu est-il actuellement accessible (actif ou inactif)",
             "example":"true",
             "type":"boolean",
+            "trueValues": ["true"],
+            "falseValues": ["false"],
             "constraints":{
-                "required":true,
-                "trueValues": ["true"],
-                "falseValues": ["false"]
+                "required":true
             }
         },
         {
@@ -250,10 +250,10 @@
             "description":"Un éclairage nocturne est-il présent",
             "example":false,
             "type":"boolean",
+            "trueValues": ["true"],
+            "falseValues": ["false"],
             "constraints":{
-                "required":false,
-                "trueValues": ["true"],
-                "falseValues": ["false"]
+                "required":false
             }
         },
         {
