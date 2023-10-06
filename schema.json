@@ -75,7 +75,7 @@
     ],
     "version":"0.3.0",
     "created":"2019-06-25",
-    "lastModified":"2023-09-01",
+    "lastModified":"2023-10-06",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
     "uri":"https://github.com/etalab/lieux-covoiturage/blob/master/schema.json",
     "example":"https://github.com/etalab/lieux-covoiturage/blob/master/exemple-valide.csv",
@@ -160,7 +160,9 @@
             "example":"true",
             "type":"boolean",
             "constraints":{
-                "required":true
+                "required":true,
+                "trueValues": ["true"],
+                "falseValues": ["false"]
             }
         },
         {
@@ -249,7 +251,9 @@
             "example":false,
             "type":"boolean",
             "constraints":{
-                "required":false
+                "required":false,
+                "trueValues": ["true"],
+                "falseValues": ["false"]
             }
         },
         {
