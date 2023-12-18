@@ -5,6 +5,7 @@ Ce fichier répertorie les changements entre différentes versions d'un schéma.
 ## Version 0.3.0 - 2023-09-01
 - La colonne `id_lieu` est supprimée
 - La colonne `id_local` devient obligatoire
+- Précision dans les valeurs booléennes possibles (`true` ou `false`uniquement)
 - Mise à jour des exemples CSV correct/incorrect
 - Mise à jour du README
 
