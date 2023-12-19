@@ -22,7 +22,7 @@ Les lieux de covoiturage sont des données précieuses, notamment pour les appli
 ## Transmission des données
 Dans le but de constituer un répertoire national des lieux de covoiturage, ouvert et accessible à tous, les collectivités peuvent transmettre systématiquement, sous forme de tableau mis à jour, les données relatives aux lieux qu'elles considèrent pertinents pour les covoitureurs.
 
-Les différents moyens permettant de contribuer sont détaillés dans la documentation "[Publier des données la Base nationale des Lieux de Covoiturage (BNLC)](https://doc.transport.data.gouv.fr/type-donnees/lieux-de-covoiturage/administration-des-donnees/contribuer-a-la-base-nationale-des-lieux-de-covoiturage)".
+Les différents moyens permettant de contribuer sont détaillés dans la documentation "[Publier des données > La Base nationale des Lieux de Covoiturage (BNLC)](https://doc.transport.data.gouv.fr/type-donnees/lieux-de-covoiturage/administration-des-donnees/contribuer-a-la-base-nationale-des-lieux-de-covoiturage)".
 
 En cas de contribution directement sur data.gouv.fr, il faut sélectionner le schéma `Lieu de covoiturage` lors de la publication du jeu de données, afin que celui-ci soit ajouté automatiquement à la BNLC. [Plus de détails sur l'ajout d'un schéma](https://guides.data.gouv.fr/publier-des-donnees/guide-qualite/maitriser-les-schemas-de-donnees/indiquer-et-verifier-quune-ressource-respecte-un-schema-de-donnees)
 
