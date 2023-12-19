@@ -19,20 +19,20 @@
         {
           "title": "Ressource valide",
           "name": "exemple-valide",
-          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-valide.csv"
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-valide.csv"
         },
         {
           "title": "Ressource invalide",
           "name": "exemple-invalide",
-          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.2.2/exemple-invalide.csv"
+          "path": "https://github.com/etalab/schema-lieux-covoiturage/raw/v0.3.0/exemple-invalide.csv"
         }
       ],
     "author":"Antoine Augusti pour Etalab",
     "contact":"contact@transport.beta.gouv.fr",
     "contributors": [
         {
-            "title": "Miryad Ali et Francis Chabouis",
-            "email": "contact@transport.beta.gouv.fr",
+            "title": "Miryad Ali, Francis Chabouis, Aurélien Cadiou",
+            "email": "contact@transport.data.gouv.fr",
             "organisation": "transport.data.gouv.fr",
             "role": "contributor"
         },
@@ -73,30 +73,20 @@
             "role": "contributor"
         }
     ],
-    "version":"0.2.8",
+    "version":"0.3.0",
     "created":"2019-06-25",
-    "lastModified":"2023-07-17",
+    "lastModified":"2023-10-06",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
     "uri":"https://github.com/etalab/lieux-covoiturage/blob/master/schema.json",
     "example":"https://github.com/etalab/lieux-covoiturage/blob/master/exemple-valide.csv",
     "fields":[
-        {
-            "name":"id_lieu",
-            "description":"Identifiant du lieu de covoiturage, délivré par le Point d'Accès National selon la règle INSEE-C-XXX où INSEE est le code INSEE de la commune et XXX est le numéro d’ordre d'arrivée dans la base sur 3 chiffres, commençant par 001. L'identifiant 35238-C-001 désigne ainsi la première aire référencée dans la commune de code INSEE 35238.",
-            "example":"35238-C-001",
-            "type":"string",
-            "constraints":{
-                "required":true,
-                "pattern":"^([013-9]\\d|2[AB1-9])\\d{3}-C-\\d{3}$"
-            }
-        },
         {
             "name":"id_local",
             "description":"Identifiant du lieu de covoiturage fixé par le producteur de la donnée pour son propre usage",
             "example":"23X01",
             "type":"string",
             "constraints":{
-                "required":false
+                "required":true
             }
         },
         {
@@ -169,6 +159,8 @@
             "description":"Le lieu est-il actuellement accessible (actif ou inactif)",
             "example":"true",
             "type":"boolean",
+            "trueValues": ["true"],
+            "falseValues": ["false"],
             "constraints":{
                 "required":true
             }
@@ -258,6 +250,8 @@
             "description":"Un éclairage nocturne est-il présent",
             "example":false,
             "type":"boolean",
+            "trueValues": ["true"],
+            "falseValues": ["false"],
             "constraints":{
                 "required":false
             }
@@ -288,6 +282,5 @@
     ],
     "missingValues":[
         ""
-    ],
-    "primaryKey":"id_lieu"
+    ]
 }
