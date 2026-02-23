@@ -7,21 +7,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Installation Python 3.7
-      uses: actions/setup-python@v1
+    - uses: actions/checkout@v4
+    - name: Installation Python 3.10
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.7'
-    - name: Cache pip
-      uses: actions/cache@v1
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-          ${{ runner.os }}-
+        python-version: '3.10'
+        cache: 'pip'
     - name: Installation des dépendances
-      run: pip install -r requirements.txt
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
     - name: Vérification du schéma et des fichiers d'exemples
       run: |
         frictionless validate --type schema schema.json
