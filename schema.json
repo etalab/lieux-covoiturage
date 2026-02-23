@@ -31,7 +31,13 @@
     "contact":"contact@transport.beta.gouv.fr",
     "contributors": [
         {
-            "title": "Miryad Ali, Francis Chabouis, Aurélien Cadiou",
+            "title": "Aurélien Cadiou",
+            "email": "aurelien.cadiou@transport.data.gouv.fr",
+            "organisation": "transport.data.gouv.fr",
+            "role": "contributor"
+        },
+        {
+            "title": "Miryad Ali, Francis Chabouis",
             "email": "contact@transport.data.gouv.fr",
             "organisation": "transport.data.gouv.fr",
             "role": "contributor"
@@ -75,7 +81,7 @@
     ],
     "version":"0.3.0",
     "created":"2019-06-25",
-    "lastModified":"2023-10-06",
+    "lastModified":"2026-02-23",
     "homepage":"https://github.com/etalab/schema-lieux-covoiturage",
     "uri":"https://github.com/etalab/lieux-covoiturage/blob/master/schema.json",
     "example":"https://github.com/etalab/lieux-covoiturage/blob/master/exemple-valide.csv",
@@ -129,7 +135,7 @@
         {
             "name":"type",
             "description":"Le type de lieu de covoiturage",
-            "example":"Parking",
+            "example":"Aire de covoiturage",
             "type":"string",
             "constraints":{
                 "required":true,
@@ -140,7 +146,8 @@
                     "Supermarché",
                     "Parking relais",
                     "Délaissé routier",
-                    "Auto-stop"
+                    "Auto-stop",
+                    "Ligne de covoiturage"
                 ]
             }
         },
